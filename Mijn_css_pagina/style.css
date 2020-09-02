@@ -1,0 +1,48 @@
+body {
+    background-color: #b9b2bf;
+    color: #22172b;
+    font-family: 'Oswald', sans-serif; 
+}
+h1.black_border {
+    color: #ffffff;
+}
+p {
+    font-size: 16px;
+    font-weight: 300;
+}
+main, header, footer {
+    border: 5px groove #9180ad;
+    width: 650px;
+    margin: 15px auto;
+    padding: 5px 20px;
+}
+.black_border {
+    background-image: url(https://images.hdqwalls.com/wallpapers/skull-tiles-background-img.jpg);
+    border: 5px dotted #f09400;
+    padding: 10px;
+}
+a {
+    color: #22172b;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f09400;
+}
+.footer_menu li {
+    display: inline-block;
+    text-align: center;
+    list-style: none;
+    width: 60px;
+    margin: 3%;
+    padding: 20px;
+    background-color: #22172b;
+    border: 3px ridge #9180ad;
+}
+.footer_menu li:hover {
+    color: #ffffff;
+    background-color: #f09400;
+}
+.footer_menu a {
+    color: #ffffff;
+}
